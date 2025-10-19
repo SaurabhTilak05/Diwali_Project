@@ -36,9 +36,7 @@ function WishPage() {
         </div>
         {wishText && <p className="wish-text">{wishText}</p>}
       </section>
-      <footer className="footer-sectionn">
-        &copy; 2025 Diwali Celebration. All Rights Reserved.
-      </footer>
+     
     </div>
   );
 }

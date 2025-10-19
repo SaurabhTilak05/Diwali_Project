@@ -2,10 +2,9 @@ import React, { useState } from "react";
 import "./Diyas.css";
 
 function Diyas() {
-  // दिव्यांची लिस्ट (4 दिवे)
+
   const [lit, setLit] = useState([false, false, false, false]);
 
-  // दिवा पेटवणे / विझवणे toggle function
   const toggleDiya = (index) => {
     const newLit = [...lit];
     newLit[index] = !newLit[index];

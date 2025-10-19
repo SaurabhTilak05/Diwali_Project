@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import "./FireworksPage.css";
 
 const sounds = [
-  "/fataka.mp3",
-  "/fataka2.mp3",
-  "/fataka3.mp3",
+  process.env.PUBLIC_URL + "/assets/fataka.mp3",
+  process.env.PUBLIC_URL + "/assets/fataka2.mp3",
+  process.env.PUBLIC_URL + "/assets/fataka3.mp3",
 ];
 
 function StarryFireworks() {

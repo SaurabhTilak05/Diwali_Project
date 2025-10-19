@@ -2,10 +2,10 @@ import React from "react";
 import "./GalleryPage.css";
 
 const images = [
-  "/rangoli1.jpeg",
-  "/rangoli2.jpeg",
-  "/rangoli3.jpeg",
-  "/rangoli4.jpeg",
+  process.env.PUBLIC_URL + "/assets/rangoli1.jpeg",
+  process.env.PUBLIC_URL + "/assets/rangoli2.jpeg",
+  process.env.PUBLIC_URL + "/assets/rangoli3.jpeg",
+  process.env.PUBLIC_URL + "/assets/rangoli4.jpeg",
 ];
 
 function GalleryPage() {
