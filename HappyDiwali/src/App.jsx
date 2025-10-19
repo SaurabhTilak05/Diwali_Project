@@ -7,19 +7,24 @@ import DiyasPage from "./pages/DiyasPage";
 import GalleryPage from "./pages/GalleryPage";
 import WishPage from "./pages/WishPage";
 import FireworksPage from "./pages/FireworksPage";
+import "./App.css"; // make sure we add flex styling here
 
 function App() {
   return (
     <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/diyas" element={<DiyasPage />} />
-        <Route path="/gallery" element={<GalleryPage />} />
-        <Route path="/wish" element={<WishPage />} />
-        <Route path="/enjoy" element={<FireworksPage />} />
-      </Routes>
-      <Footer />
+      <div className="app-wrapper">
+        <Navbar />
+        <div className="main-content">
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/diyas" element={<DiyasPage />} />
+            <Route path="/gallery" element={<GalleryPage />} />
+            <Route path="/wish" element={<WishPage />} />
+            <Route path="/enjoy" element={<FireworksPage />} />
+          </Routes>
+        </div>
+        <Footer />
+      </div>
     </Router>
   );
 }

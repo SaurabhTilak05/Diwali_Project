@@ -1,4 +1,7 @@
 .footer-section {
+ height: 100px;
+  bottom: 0;
+  width: 100%;
   background: rgba(0, 0, 0, 0.8);
   color: #ffcc70;
   padding: 25px 20px;

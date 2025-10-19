@@ -4,7 +4,19 @@ body {
   background: linear-gradient(to bottom, #0d0d0d, #1a1a1a);
   color: #fff;
   overflow-x: hidden;
+  height: auto;
 }
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* full viewport */
+}
+
+.main-content {
+  flex: 1;             /* grows with content */
+  overflow-y: auto;    /* allows scroll if content is taller */
+}
+
 
 .glow-text {
   font-family: "Dancing Script", cursive;
