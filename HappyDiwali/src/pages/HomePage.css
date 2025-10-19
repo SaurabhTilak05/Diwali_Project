@@ -1,0 +1,22 @@
+.home-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: radial-gradient(circle at top, #dfd7d7 0%, #000 100%);
+}
+
+.home-section h1 { font-size: 3rem; margin-bottom: 15px; }
+.home-section p { font-size: 1.2rem; margin-bottom: 25px; color: #ffcc70; }
+.home-section button {
+  padding: 12px 24px;
+  border-radius: 12px;
+  border: none;
+  background-color: #ffbf00;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.home-section button:hover { transform: scale(1.05); box-shadow: 0 0 20px #ffbf00; }

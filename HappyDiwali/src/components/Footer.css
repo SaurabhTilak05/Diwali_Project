@@ -1,0 +1,25 @@
+.footer-section {
+  background: rgba(0, 0, 0, 0.8);
+  color: #ffcc70;
+  padding: 25px 20px;
+  text-align: center;
+  border-top: 2px solid #ffbf00;
+  font-size: 0.95rem;
+}
+
+.footer-content p {
+  margin: 5px 0;
+}
+
+.social-links a {
+  color: #ffbf00;
+  text-decoration: none;
+  margin: 0 8px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 8px #ffbf00;
+}

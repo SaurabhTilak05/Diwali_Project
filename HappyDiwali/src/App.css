@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to bottom, #0d0d0d, #1a1a1a);
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.glow-text {
+  font-family: "Dancing Script", cursive;
+  color: #ffbf00;
+  text-shadow: 0 0 10px #ffbf00, 0 0 20px #ff8000, 0 0 30px #ffd700;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media(max-width:768px){
+  body { font-size: 14px; }
+}

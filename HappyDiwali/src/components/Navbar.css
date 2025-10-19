@@ -1,0 +1,99 @@
+/* Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(12px);
+  background: linear-gradient(90deg, #ff7f50, #ffbf00);
+  z-index: 100;
+}
+
+/* Logo */
+.logo {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+/* Nav Links */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: all 0.3s ease;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #000;
+  transform: scale(1.1);
+}
+
+/* Music Button */
+.music-btn {
+  margin-left: 15px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #fff;
+  color: #ff7f50;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.music-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ffbf00;
+}
+
+/* Hamburger Menu for Mobile */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.hamburger .bar {
+  height: 3px;
+  width: 25px;
+  background-color: #fff;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav-links {
+    position: fixed;
+    top: 65px;
+    right: -100%;
+    height: calc(100vh - 65px);
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.95);
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 50px;
+    gap: 25px;
+    transition: right 0.3s ease;
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
