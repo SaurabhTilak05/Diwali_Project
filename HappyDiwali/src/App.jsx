@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
@@ -17,7 +17,7 @@ function App() {
         <Route path="/diyas" element={<DiyasPage />} />
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/wish" element={<WishPage />} />
-          <Route path="/enjoy" element={<FireworksPage />} />
+        <Route path="/enjoy" element={<FireworksPage />} />
       </Routes>
       <Footer />
     </Router>
