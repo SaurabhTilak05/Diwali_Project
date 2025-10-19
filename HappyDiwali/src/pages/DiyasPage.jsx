@@ -8,7 +8,7 @@ function DiyasPage() {
     const newLit = [...lit];
     newLit[index] = !newLit[index];
     setLit(newLit);
-     const audio = new Audio(process.env.PUBLIC_URL + "/assets/sound.mp3");
+     const audio = new Audio(process.env.PUBLIC_URL + "/assets/diya.mp3");
     audio.play();
   };
 
