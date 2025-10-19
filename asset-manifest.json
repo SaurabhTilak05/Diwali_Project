@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Diwali_Project/static/css/main.4b40f588.css",
-    "main.js": "/Diwali_Project/static/js/main.77fed8ef.js",
+    "main.css": "/Diwali_Project/static/css/main.eee59233.css",
+    "main.js": "/Diwali_Project/static/js/main.f31ae36f.js",
     "index.html": "/Diwali_Project/index.html",
-    "main.4b40f588.css.map": "/Diwali_Project/static/css/main.4b40f588.css.map",
-    "main.77fed8ef.js.map": "/Diwali_Project/static/js/main.77fed8ef.js.map"
+    "main.eee59233.css.map": "/Diwali_Project/static/css/main.eee59233.css.map",
+    "main.f31ae36f.js.map": "/Diwali_Project/static/js/main.f31ae36f.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b40f588.css",
-    "static/js/main.77fed8ef.js"
+    "static/css/main.eee59233.css",
+    "static/js/main.f31ae36f.js"
   ]
 }
